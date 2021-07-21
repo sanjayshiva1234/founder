@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    background-color: aqua;
+    font-style: italic;
+}
+
+.profile {
+    width: 215px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    background: linear-gradient(#8ecc78 0%, #234e09 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-style: oblique;
+}
+
+.line {
+    width: 60px;
+    height: 6px;
+    background-color: chartreuse;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 25px auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    color: crimson;
+    padding-right: 25px;
+    padding-left: 33px;
+    font-family: fantasy;
+    font-size: 22px;
+}
+
+.links:hover {
+    background-color: blueviolet;
+font-size: 25px;
+    text-decoration: underline;
+}
+
+.article:hover {
+
+    color: firebrick;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+#writings{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aliceblue !important;
+}
+#contact{
+    background-color: firebrick;
+}
+.contact1 h3{
+    display: inline;
+}
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
